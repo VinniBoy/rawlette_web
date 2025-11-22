@@ -153,7 +153,7 @@ function spin() {
 
   // Update adaptive Wahrscheinlichkeit
   updateAdaptiveState(ids, trigger);
-  //updateProbabilities(); // neu!
+  updateProbabilities(); // neu!
 
   pullsLeft = Math.floor(credit/10); // aktualisieren nach eventuellen Gewinnen
   updateStatus();
