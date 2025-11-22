@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Rawlette</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game">
+    <h1>Rawlette</h1>
+    <div id="status">
+      <span>Kredit: <span id="credit">100</span></span>
+      <span>Züge: <span id="pullsLeft">10</span></span>
+    </div>
+
+    <div id="slots">
+      <img id="slot1" src="assets/chaya1.png">
+      <img id="slot2" src="assets/chaya2.png">
+      <img id="slot3" src="assets/chaya3.png">
+    </div>
+
+    <p id="message">Viel Glück!</p>
+
+    <button id="spinBtn">Drehen</button>
+    <button id="restartBtn">Neustart</button>
+
+    <canvas id="bonusWheel" width="400" height="400" style="display:none;"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
